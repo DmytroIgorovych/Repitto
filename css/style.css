@@ -1,0 +1,636 @@
+body {
+  font-family: "Geologica", sans-serif;
+}
+
+header {
+  overflow: hidden;
+  background-image: url(../image/iPhone-14-Pro-clay.png), url(../image/iPhone-14-Pro-opacity.png), url(../image/background.svg);
+  background-position: bottom right -61px, bottom 108px right -111px, top left;
+  background-size: 193px 441px, 193px 441px, 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+}
+header .container {
+  padding: 14px 82px 75px 20px;
+}
+header .container .header_logo {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+header .container .header_logo .header_link {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+header .container .header_logo .header_link .header_name {
+  margin-left: 11px;
+  margin-right: 24px;
+  margin-bottom: 0;
+  font-size: 24px;
+  letter-spacing: -1%;
+}
+header .container .header_logo .header_slogan {
+  font-size: 11px;
+  padding-left: 20px;
+  padding-right: 15px;
+  border-left: 1px solid #5B639D;
+  margin-bottom: 0;
+  line-height: 15px;
+}
+header .container .header_promo {
+  margin-top: 70px;
+}
+header .container .header_promo .header_h1 {
+  color: white;
+  margin-bottom: 28px;
+  padding-right: 32px;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 130%;
+}
+header .container .header_promo .header_h1 span {
+  color: #FF805B;
+}
+header .container .header_promo p {
+  margin-bottom: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+header .container .header_promo .header_text1 {
+  margin-bottom: 48px;
+  line-height: 30px;
+}
+header .container .header_promo .header_text2 {
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-bottom: 5px;
+  line-height: 230%;
+}
+header .container .header_promo .header_mobileIcons {
+  padding-top: 5px;
+  padding-left: 11.5px;
+  height: 36px;
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  justify-content: left;
+  align-items: baseline;
+}
+header .container .header_promo .header_mobileIcons a {
+  display: block;
+  width: 29px;
+  height: 36px;
+}
+
+@media (min-width: 768px) {
+  header {
+    overflow: hidden;
+    background-image: url(../image/iPhone-14-Pro-clay.png), url(../image/background.svg);
+    background-position: bottom 10px right 50px, top left;
+    background-size: 193px 441px, 100% 100%;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+  }
+  header .container {
+    padding: 22px 82px 120px 20px;
+  }
+  header .container .header_logo .header_link .header_name {
+    font-size: 26px;
+  }
+  header .container .header_logo .header_slogan {
+    font-size: 12px;
+  }
+  header .container .header_promo {
+    margin-top: 100px;
+  }
+  header .container .header_promo .header_h1 {
+    font-size: 34px;
+    margin-bottom: 42px;
+  }
+  header .container .header_promo .header_text2 {
+    font-size: 14.5px;
+    color: #F16076;
+    margin-bottom: 12px;
+  }
+  header .container .header_promo .header_mobileApps a svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 992px) {
+  header {
+    background-image: url(../image/iPhone-14-Pro-clay.png), url(../image/opacity-background.svg), url(../image/background.svg);
+    background-position: bottom 10px right 210px, top left, top left;
+    background-size: 193px 441px, 100% 100%, 100% 100%;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+  }
+  header .container {
+    padding: 22px 82px 120px 30px;
+  }
+  header .container .header_logo .header_link .header_name {
+    font-size: 28px;
+  }
+  header .container .header_logo .header_slogan {
+    font-size: 13px;
+  }
+  header .container .header_promo {
+    margin-top: 120px;
+    margin-left: 55px;
+  }
+  header .container .header_promo .header_h1 {
+    font-size: 37px;
+  }
+  header .container .header_promo .header_text2 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    background-position: bottom right 270px, top left, top left;
+    background-size: 212px 485px, 100% 100%, 100% 100%;
+  }
+  header .container {
+    padding: 25px 0 120px 0;
+  }
+  header .container .header_logo .header_link .header_name {
+    font-size: 30px;
+  }
+  header .container .header_logo .header_slogan {
+    font-size: 14.5px;
+  }
+  header .container .header_promo {
+    margin-top: 120px;
+    margin-left: 80px;
+  }
+  header .container .header_promo .header_h1 {
+    font-size: 42px;
+  }
+  header .container .header_promo .header_text2 {
+    font-size: 17.5px;
+  }
+}
+@media (min-width: 1400px) {
+  header {
+    background-position: bottom right 330px, top left, top left;
+    background-size: 253px 577px, 100% 100%, 100% 100%;
+  }
+  header .container {
+    padding: 33px 0 158px 0;
+  }
+  header .container .header_logo .header_link svg {
+    width: 46px;
+    height: 47.5px;
+  }
+  header .container .header_logo .header_link .header_name {
+    font-size: 35px;
+  }
+  header .container .header_logo .header_slogan {
+    font-size: 16px;
+    line-height: 137.5%;
+  }
+  header .container .header_promo {
+    margin-top: 161px;
+    margin-left: 100px;
+  }
+  header .container .header_promo .header_h1 {
+    font-size: 48px;
+  }
+  header .container .header_promo .header_text2 {
+    font-size: 19px;
+  }
+}
+.container {
+  padding: 0;
+}
+.container .description {
+  margin-top: 45px;
+  margin-bottom: 62px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+}
+.container .description .description__title {
+  margin-bottom: 25px;
+  line-height: 121%;
+  font-size: 24px;
+  color: #0C1139;
+}
+.container .description .description__paragraph1 {
+  font-size: 18px;
+  margin-bottom: 19px;
+  line-height: 130%;
+  font-weight: 200;
+  color: #454F68;
+}
+.container .description .description__block {
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+.container .description .description__block .desscription__image {
+  display: flex;
+  min-height: 227px;
+  min-width: 147px;
+  padding: 0;
+  justify-content: flex-end;
+}
+.container .description .description__block .description__paragraph2 {
+  font-size: 15px;
+  line-height: 150%;
+  margin-bottom: 0;
+  margin-left: 4px;
+  font-weight: 200;
+  color: #454F68;
+}
+
+@media (min-width: 576px) {
+  .container .description .description__title {
+    font-size: 26px;
+  }
+  .container .description .description__paragraph1 {
+    font-size: 20px;
+  }
+  .container .description .description__block .desscription__image img {
+    width: 175px;
+  }
+  .container .description .description__block .description__paragraph2 {
+    font-size: 17px;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  .container .description .description__title {
+    text-align: center;
+    font-size: 26px;
+  }
+  .container .description .description__paragraph1 {
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container .description .description__block {
+    display: flex;
+    -moz-column-gap: 25px;
+         column-gap: 25px;
+  }
+  .container .description .description__block .desscription__image img {
+    width: 300px;
+  }
+  .container .description .description__block .description__paragraph2 {
+    justify-content: center;
+    font-size: 17px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+@media (min-width: 992px) {
+  .container .description .description__title {
+    font-size: 30px;
+  }
+  .container .description .description__paragraph1 {
+    font-size: 22px;
+    margin-bottom: 45px;
+  }
+  .container .description .description__block {
+    justify-content: space-between;
+  }
+  .container .description .description__block .desscription__image img {
+    width: 90%;
+  }
+  .container .description .description__block .description__paragraph2 {
+    font-size: 18px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .container .description .description__title {
+    font-size: 35px;
+  }
+  .container .description .description__paragraph1 {
+    font-size: 24px;
+    margin-bottom: 62px;
+  }
+  .container .description .description__block {
+    justify-content: center;
+    -moz-column-gap: 67px;
+         column-gap: 67px;
+  }
+  .container .description .description__block .desscription__image img {
+    width: 100%;
+  }
+  .container .description .description__block .description__paragraph2 {
+    font-size: 19px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 1400px) {
+  .container .description .description__title {
+    font-size: 40px;
+  }
+  .container .description .description__paragraph1 {
+    font-size: 24px;
+    margin-bottom: 62px;
+  }
+  .container .description .description__block {
+    justify-content: center;
+    -moz-column-gap: 67px;
+         column-gap: 67px;
+  }
+  .container .description .description__block .desscription__image img {
+    width: 100%;
+  }
+  .container .description .description__block .description__paragraph2 {
+    font-size: 19px;
+    padding-right: 210px;
+  }
+}
+.banner-container {
+  padding: 0;
+  margin: 0;
+}
+.banner-container .mobileApps-banner {
+  padding: 22px 20px 32px 20px;
+  margin-bottom: 43px;
+  background: linear-gradient(45deg, #F16076, #FF805B);
+}
+.banner-container .mobileApps-banner .mobileApps-banner__title {
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: calc(1.1rem + 0.6vw);
+}
+.banner-container .mobileApps-banner .mobileApps-block a {
+  display: block;
+  margin: 0 auto;
+  width: 335px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.banner-container .mobileApps-banner .mobileApps-block .appStoreIcon {
+  background: #FBFBFB;
+  padding: 11px 92.5px;
+  margin-bottom: 22px;
+}
+.banner-container .mobileApps-banner .mobileApps-block .playMarketIcon {
+  background: #FBFBFB;
+  padding: 9px 80px;
+}
+
+@media (min-width: 576px) {
+  .banner-container {
+    margin: 0 auto;
+  }
+  .banner-container .mobileApps-banner {
+    border-radius: 24px;
+  }
+}
+@media (min-width: 767px) {
+  .banner-container {
+    margin: 0 auto;
+  }
+  .banner-container .mobileApps-banner {
+    background: url(../image/arrow-for-mobilebanner.svg) center left/117% 100% no-repeat border-box, linear-gradient(45deg, #F16076, #FF805B);
+    border-radius: 24px;
+  }
+  .banner-container .mobileApps-banner .mobileApps-banner__title {
+    font-size: calc(1.2rem + 0.6vw);
+  }
+}
+@media (min-width: 992px) {
+  .banner-container {
+    max-width: 850px;
+  }
+  .banner-container .mobileApps-banner {
+    background: url(../image/arrow-for-mobilebanner.svg) center left/104% 106% no-repeat border-box, linear-gradient(45deg, #F16076, #FF805B);
+    padding-bottom: 73px;
+    padding-top: 43px;
+  }
+  .banner-container .mobileApps-banner .mobileApps-banner__title {
+    font-size: calc(1.3rem + 0.6vw);
+    margin-bottom: 51px;
+  }
+  .banner-container .mobileApps-banner .mobileApps-block {
+    display: flex;
+    justify-content: center;
+    -moz-column-gap: 25px;
+         column-gap: 25px;
+  }
+  .banner-container .mobileApps-banner .mobileApps-block a {
+    margin: 0;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-container .mobileApps-banner .mobileApps-block .appStoreIcon {
+    padding: 0;
+    margin: 0;
+  }
+  .banner-container .mobileApps-banner .mobileApps-block .playMarketIcon {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .banner-container {
+    max-width: 894px;
+  }
+  .banner-container .mobileApps-banner {
+    background: url(../image/arrow-for-mobilebanner.svg) center left/100% 110% no-repeat border-box, linear-gradient(45deg, #F16076, #FF805B);
+  }
+  .banner-container .mobileApps-banner .mobileApps-banner__title {
+    font-size: calc(1.5rem + 0.6vw);
+  }
+}
+.works-container {
+  padding: 32px 20px 0 20px;
+  background: url(../image/Union_small.svg) top center/100% 100% no-repeat border-box;
+}
+.works-container .works-section .works-section__title {
+  margin-bottom: 22px;
+  line-height: 121%;
+  color: #0C1139;
+}
+.works-container .works-section h5 {
+  height: 40px;
+}
+.works-container .works-section p {
+  line-height: 135%;
+  font-weight: 200;
+  color: #454F68;
+}
+.works-container .works-section .works-section__p2 {
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+.works-container .works-section .test {
+  margin-bottom: 27px;
+}
+.works-container .works-section .test .test__title {
+  background: url(../image/Icon_Quick_test.svg) top left/31px 38px no-repeat border-box;
+  padding: 10px 0 6.5px 43px;
+}
+.works-container .works-section .training {
+  margin-bottom: 29px;
+}
+.works-container .works-section .training .training__title {
+  padding: 9px 0 9px 43px;
+  background: url(../image/Icon_Start_your_training.svg) top left/34px 40px no-repeat border-box;
+}
+.works-container .works-section .simulator {
+  margin-bottom: 32px;
+}
+.works-container .works-section .simulator .simulator__title {
+  padding: 7px 0 8px 43px;
+  background: url(../image/Icon_Exam_simulator.svg) top left/44px 37px no-repeat border-box;
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: url(../image/Union_big.svg) top 80px left no-repeat content-box;
+  }
+  .works-container {
+    background: none;
+    position: relative;
+  }
+  .works-container .works-section h5 {
+    height: 50px;
+  }
+  .works-container .works-section .works-section__title {
+    text-align: center;
+  }
+  .works-container .works-section .works-section__p1, .works-container .works-section .works-section__p2 {
+    text-align: center;
+  }
+  .works-container .works-section .test .test__title {
+    background: url(../image/Icon_Quick_test.svg) top left/39px 48px no-repeat border-box;
+    padding: 10px 0 6.5px 48px;
+  }
+  .works-container .works-section .training .training__title {
+    padding: 9px 0 9px 48px;
+    background: url(../image/Icon_Start_your_training.svg) top left/42px 49px no-repeat border-box;
+  }
+  .works-container .works-section .simulator .simulator__title {
+    padding: 7px 0 8px 50px;
+    background: url(../image/Icon_Exam_simulator.svg) top left/50px 42px no-repeat border-box;
+  }
+}
+@media (min-width: 768px) {
+  .wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: url(../image/Union_big.svg) top 80px left no-repeat content-box;
+  }
+  .works-container {
+    background: none;
+  }
+  .works-container .works-section .works-section__title {
+    text-align: center;
+  }
+  .works-container .works-section .works-section__p1, .works-container .works-section .works-section__p2 {
+    text-align: center;
+  }
+  .works-container .works-section .test .test__title {
+    background: url(../image/Icon_Quick_test.svg) top left/39px 48px no-repeat border-box;
+    padding: 10px 0 6.5px 55px;
+  }
+  .works-container .works-section .training .training__title {
+    padding: 9px 0 9px 55px;
+    background: url(../image/Icon_Start_your_training.svg) top left/42px 49px no-repeat border-box;
+  }
+  .works-container .works-section .simulator .simulator__title {
+    padding: 7px 0 8px 57px;
+    background: url(../image/Icon_Exam_simulator.svg) top left/50px 42px no-repeat border-box;
+  }
+}
+@media (min-width: 992px) {
+  .works-container {
+    background: none;
+    display: flex;
+    justify-content: center;
+  }
+  .works-container .works-section h5 {
+    height: 100%;
+    margin-bottom: 11px;
+  }
+  .works-container .works-section p {
+    font-size: 17px;
+  }
+  .works-container .works-section .works-section__title {
+    font-size: calc(1.53rem + 0.9vw);
+  }
+  .works-container .works-section .works-section__p1, .works-container .works-section .works-section__p2 {
+    text-align: center;
+  }
+  .works-container .works-section .test {
+    background: url(../image/Icon_Quick_test.svg) top 40px left 32px/54px 72px no-repeat border-box;
+    padding-left: 110px;
+  }
+  .works-container .works-section .test .test__title {
+    background: none;
+    padding: 0;
+  }
+  .works-container .works-section .training {
+    background: url(../image/Icon_Start_your_training.svg) top 40px left 32px/58px 72px no-repeat border-box;
+    padding-left: 110px;
+  }
+  .works-container .works-section .training .training__title {
+    background: none;
+    padding: 0;
+  }
+  .works-container .works-section .simulator {
+    background: url(../image/Icon_Exam_simulator.svg) top 40px left 32px/65px 55px no-repeat border-box;
+    padding-left: 110px;
+  }
+  .works-container .works-section .simulator .simulator__title {
+    background: none;
+    padding: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .works-container .works-section .works-section__title {
+    font-size: calc(1.6rem + 0.9vw);
+  }
+  .works-container .works-section .test {
+    background: url(../image/Icon_Quick_test.svg) top 40px left 32px/64px 82px no-repeat border-box;
+    padding-left: 129px;
+  }
+  .works-container .works-section .training {
+    background: url(../image/Icon_Start_your_training.svg) top 40px left 32px/64px 82px no-repeat border-box;
+    padding-left: 129px;
+  }
+  .works-container .works-section .simulator {
+    background: url(../image/Icon_Exam_simulator.svg) top 40px left 32px/80px 70px no-repeat border-box;
+    padding-left: 129px;
+  }
+}
+@media (min-width: 1200px) {
+  .works-container .works-section p {
+    font-size: 18px;
+  }
+  .works-container .works-section .works-section__title {
+    font-size: calc(1.6rem + 0.9vw);
+  }
+  .works-container .works-section .test {
+    background: url(../image/Icon_Quick_test.svg) top 40px left 32px/64px 82px no-repeat border-box;
+    padding-left: 129px;
+  }
+  .works-container .works-section .training {
+    background: url(../image/Icon_Start_your_training.svg) top 40px left 32px/64px 82px no-repeat border-box;
+    padding-left: 129px;
+  }
+  .works-container .works-section .simulator {
+    background: url(../image/Icon_Exam_simulator.svg) top 40px left 32px/80px 70px no-repeat border-box;
+    padding-left: 129px;
+  }
+}/*# sourceMappingURL=style.css.map */
