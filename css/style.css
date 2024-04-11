@@ -614,7 +614,7 @@ header .container .header_promo .header_mobileIcons a {
     padding-left: 129px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .works-container .works-section p {
     font-size: 18px;
   }
@@ -632,5 +632,192 @@ header .container .header_promo .header_mobileIcons a {
   .works-container .works-section .simulator {
     background: url(../image/Icon_Exam_simulator.svg) top 40px left 32px/80px 70px no-repeat border-box;
     padding-left: 129px;
+  }
+}
+.reviews__container {
+  padding: 32px 20px 0 20px;
+  overflow: hidden;
+}
+.reviews__container .reviews {
+  margin-bottom: 52px;
+}
+.reviews__container .reviews .reviews__title {
+  margin-bottom: 22px;
+}
+.reviews__container .reviews .slider {
+  display: flex;
+  -moz-column-gap: 21px;
+       column-gap: 21px;
+  margin-bottom: 16px;
+}
+.reviews__container .reviews .slider .review {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 36px 20px;
+  border-radius: 15px;
+  min-width: 255px;
+  max-width: 310px;
+  height: 255px;
+  font-size: 15px;
+}
+.reviews__container .reviews .slider .review:nth-child(odd) {
+  background-color: #F1F2F9;
+}
+.reviews__container .reviews .slider .review:nth-child(even) {
+  background-color: #E2E4F3;
+}
+.reviews__container .reviews .slider .review .reviews__text {
+  color: #454F68;
+  line-height: 133%;
+  margin-bottom: 6px;
+}
+.reviews__container .reviews .slider .review .review__user-name {
+  color: #0C1139;
+  font-weight: 700;
+  line-height: 160%;
+  margin-bottom: auto;
+}
+
+@media (min-width: 576px) {
+  .reviews__container .reviews .reviews__title {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .reviews__container .reviews .slider {
+    margin-bottom: 20px;
+  }
+  .reviews__container .reviews .reviews__breadcrumbs {
+    display: flex;
+    -moz-column-gap: 35px;
+         column-gap: 35px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  .reviews__container .reviews .reviews__title {
+    margin-bottom: 42px;
+  }
+  .reviews__container .reviews .slider {
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 992px) {
+  .reviews__container .reviews .reviews__title {
+    margin-bottom: 52px;
+  }
+  .reviews__container .reviews .slider {
+    margin-bottom: 28px;
+  }
+}
+@media (min-width: 1200px) {
+  .reviews__container .reviews .reviews__title {
+    margin-bottom: 62px;
+  }
+  .reviews__container .reviews .slider {
+    margin-bottom: 36px;
+  }
+  .reviews__container .reviews .slider .review {
+    padding: 20px 20px 21px 20px;
+    min-width: 310px;
+    height: 235px;
+  }
+  .reviews__container .reviews .slider .review svg {
+    padding-left: 6px;
+  }
+}
+.support-container {
+  padding: 52px 20px;
+}
+.support-container .support .support__title {
+  font-size: calc(1.3rem + 0.9vw);
+  line-height: 121%;
+  margin-bottom: 22px;
+}
+.support-container .support p {
+  font-size: 15px;
+  line-height: 135%;
+  font-weight: 100;
+}
+
+@media (min-width: 576px) {
+  .support-container .support {
+    margin: 0 auto;
+  }
+  .support-container .support .support__title {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .support-container .support .support__title {
+    font-size: calc(1.4rem + 0.9vw);
+  }
+  .support-container .support p {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  .support-container .support .support__title {
+    font-size: calc(1.5rem + 0.9vw);
+  }
+  .support-container .support p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1200px) {
+  .support-container .support .support__title {
+    font-size: calc(1.6rem + 0.9vw);
+  }
+  .support-container .support p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1400px) {
+  .support-container .support .support__title {
+    font-size: calc(1.7rem + 0.9vw);
+  }
+}
+footer {
+  background: url(../image/Logo_Repitto_footer.svg) top left/100% 100% no-repeat border-box, linear-gradient(to bottom right, #464C84, #1D2468);
+}
+footer .footer-container {
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 32px 140px 32px 20px;
+}
+footer .footer-container .footer__title {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+footer .footer-container p {
+  font-weight: 100;
+  line-height: 135%;
+}
+footer .footer-container a {
+  color: #FFFFFF;
+  font-weight: 100;
+  margin-top: 5px;
+}
+footer .footer-container .footer__p2 {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  footer {
+    background: linear-gradient(to bottom right, #464C84, #1D2468);
+  }
+  footer .footer-container {
+    text-align: center;
+    padding: 40px 0 36px 0;
+    margin: 0 auto;
+  }
+  footer .footer-container .footer__title {
+    margin-bottom: 15px;
+  }
+  footer .footer-container .footer__p1 {
+    margin-bottom: 32px;
   }
 }/*# sourceMappingURL=style.css.map */

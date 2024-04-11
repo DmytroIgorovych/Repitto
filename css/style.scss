@@ -736,7 +736,7 @@ header{
     }
 }
 
-@media (min-width:1200px) {
+@media (min-width:1400px) {
     .works-container{
         
         .works-section{
@@ -758,6 +758,274 @@ header{
             .simulator{
                 background: url(../image/Icon_Exam_simulator.svg) top 40px left 32px / 80px 70px no-repeat border-box; 
                 padding-left: 129px;
+            }
+        }
+    }
+}
+
+// How it works section style end
+
+// Reviews section style start
+
+.reviews__container{
+    padding: 32px 20px 0 20px;
+    overflow: hidden;
+    .reviews{
+        margin-bottom: 52px;
+        .reviews__title{
+            margin-bottom: 22px;
+        }
+        .slider{
+            display: flex;
+            column-gap: 21px;
+            margin-bottom: 16px;
+            .review{
+                display: flex;
+                flex-direction: column;
+                padding: 20px 20px 36px 20px;
+                border-radius: 15px;
+                min-width: 255px;
+                max-width: 310px;
+                height: 255px;
+                font-size: 15px;
+                &:nth-child(odd){
+                    background-color: #F1F2F9;
+                }
+                &:nth-child(even){
+                    background-color: #E2E4F3;
+                }
+                .reviews__text{
+                    color: #454F68;
+                    line-height: 133%;
+                    margin-bottom: 6px;
+                }
+                .review__user-name{
+                    color: #0C1139;
+                    font-weight: 700;
+                    line-height: 160%;
+                    margin-bottom: auto;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:576px) {
+    .reviews__container{
+        .reviews{
+            .reviews__title{
+                text-align: center;
+                margin-bottom: 32px;
+            }
+            .slider{
+                margin-bottom: 20px;
+                .review{
+                    .reviews__text{
+                    }
+                    .review__user-name{
+                    }
+                }
+            }
+            .reviews__breadcrumbs{
+                display: flex;
+                column-gap: 35px;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media (min-width:768px) {
+    .reviews__container{
+        .reviews{
+            .reviews__title{
+                margin-bottom: 42px;
+            }
+            .slider{
+                margin-bottom: 24px;
+                .review{
+                    .reviews__text{
+                    }
+                    .review__user-name{
+                    }
+                    svg{
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:992px) {
+    .reviews__container{
+        .reviews{
+            .reviews__title{
+                margin-bottom: 52px;
+            }
+            .slider{
+                margin-bottom: 28px;
+                .review{
+                    .reviews__text{
+                    }
+                    .review__user-name{
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1200px) {
+    .reviews__container{
+        .reviews{
+            .reviews__title{
+                margin-bottom: 62px;
+            }
+            .slider{
+                margin-bottom: 36px;
+                .review{
+                    padding: 20px 20px 21px 20px;
+                    min-width: 310px;
+                    height: 235px;
+                    .reviews__text{
+                    }
+                    .review__user-name{
+                    }
+                    svg{
+                        padding-left: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Reviews section style end
+
+// support section style start
+
+.support-container{
+    padding: 52px 20px;
+    .support{
+        .support__title{
+            font-size: calc(1.3rem + .9vw);
+            line-height: 121%;
+            margin-bottom: 22px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 135%;
+            font-weight: 100;
+        }
+    }
+}
+
+@media(min-width:576px){
+    .support-container{
+        .support{
+            margin: 0 auto;
+            .support__title{
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media(min-width:768px){
+    .support-container{
+        .support{
+            .support__title{
+                font-size: calc(1.4rem + .9vw);
+            }
+            p{
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media(min-width:992px){
+    .support-container{
+        .support{
+            .support__title{
+                font-size: calc(1.5rem + .9vw);
+            }
+            p{
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+@media(min-width:1200px){
+    .support-container{
+        .support{
+            .support__title{
+                font-size: calc(1.6rem + .9vw);
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media(min-width:1400px){
+    .support-container{
+        .support{
+            .support__title{
+                font-size: calc(1.7rem + .9vw);
+            }
+        }
+    }
+}
+
+// support section style end
+
+// footer section style start
+
+footer{
+    background: url(../image/Logo_Repitto_footer.svg) top left / 100% 100% no-repeat border-box, linear-gradient(to bottom right,#464C84, #1D2468);
+    .footer-container{
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 32px 140px 32px 20px;
+        .footer__title{
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-weight: 100;
+            line-height: 135%;
+        }
+        a{
+            color: #FFFFFF;
+            font-weight: 100;
+            margin-top: 5px;
+        }
+        .footer__p2{
+            font-weight: normal;
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media(min-width:768px) {
+    footer{
+        background: linear-gradient(to bottom right,#464C84, #1D2468);
+        .footer-container{
+            text-align: center;
+            padding: 40px 0 36px 0;
+            margin: 0 auto;
+            .footer__title{ 
+                margin-bottom: 15px;
+            }
+            .footer__p1{
+                margin-bottom: 32px;
             }
         }
     }
