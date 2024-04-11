@@ -89,7 +89,7 @@ header{
     header{
         overflow: hidden;
         background-image: url(../image/iPhone-14-Pro-clay.png), url(../image/background.svg);
-        background-position: bottom 10px right 50px, top left;
+        background-position: bottom 10px left 90%, top left;
         background-size: 193px 441px, 100% 100%;
         background-repeat: no-repeat;
         background-clip: content-box;    
@@ -134,7 +134,7 @@ header{
 @media (min-width:992px) {
     header{
         background-image: url(../image/iPhone-14-Pro-clay.png), url(../image/opacity-background.svg), url(../image/background.svg);
-        background-position: bottom 10px right 210px, top left, top left;
+        background-position: bottom 10px left 75%, top left, top left;
         background-size: 193px 441px, 100% 100%, 100% 100%;
         background-repeat: no-repeat; 
         background-clip: content-box;    
@@ -168,7 +168,7 @@ header{
 
 @media (min-width:1200px) {
     header{
-        background-position: bottom right 270px, top left, top left;
+        background-position: bottom left 75%, top left, top left;
         background-size: 212px 485px, 100% 100%, 100% 100%;
         .container{
             padding: 25px 0 120px 0;
@@ -200,7 +200,7 @@ header{
 
 @media (min-width:1400px) {
     header{
-        background-position: bottom right 330px, top left, top left;
+        background-position: bottom left 75%, top left, top left;
         background-size: 253px 577px, 100% 100%, 100% 100%;
         .container{
             padding: 33px 0 158px 0;
@@ -234,6 +234,7 @@ header{
         }
     }
 }
+
 // Header style end
 
 // Description section style start
@@ -431,7 +432,6 @@ header{
     margin: 0;
     .mobileApps-banner{
         padding: 22px 20px 32px 20px;
-        margin-bottom: 43px;
         background: linear-gradient(45deg, #F16076, #FF805B);
         .mobileApps-banner__title{
             color: #FFFFFF;
@@ -537,8 +537,10 @@ header{
 // How it works section style start
 
 .works-container{
-    padding: 32px 20px 0 20px;
-    background: url(../image/Union_small.svg) top center / 100% 100% no-repeat border-box;
+    padding: 0 20px 0 20px;
+    margin-top: 32px;
+    background: url(../image/Union_small.svg) top center no-repeat border-box;
+    background-size: 100%;
     .works-section{
         .works-section__title{
             margin-bottom: 22px;
@@ -554,8 +556,8 @@ header{
             color: #454F68;
         }
         .works-section__p2{
-            margin-bottom: 40px;
-            padding-bottom: 30px;
+            margin-bottom: 70px;
+            padding-bottom: 28px;
         }
         .test{
             margin-bottom: 27px;
@@ -586,8 +588,7 @@ header{
     .wrapper{
         margin: 0;
         padding: 0;
-        width: 100%;
-        background: url(../image/Union_big.svg) top 80px left  no-repeat content-box;
+        background: url(../image/Union_big.svg) top 80px center no-repeat content-box;
     }
     .works-container{
         background: none;
@@ -626,12 +627,6 @@ header{
 }
 
 @media (min-width:768px) {
-    .wrapper{
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        background: url(../image/Union_big.svg) top 80px left  no-repeat content-box;
-    }
     .works-container{
         background: none;
         .works-section{
@@ -716,6 +711,9 @@ header{
     .works-container{
         
         .works-section{
+            h5{
+                font-size: 22px;
+            }
             .works-section__title{
                 font-size: calc(1.6rem + .9vw);
             }
@@ -740,6 +738,9 @@ header{
     .works-container{
         
         .works-section{
+            h5{
+                font-size: 24px;
+            }
             p{
                 font-size: 18px;
             }
@@ -768,11 +769,13 @@ header{
 // Reviews section style start
 
 .reviews__container{
-    padding: 32px 20px 0 20px;
+    padding: 0 20px;
     overflow: hidden;
     .reviews{
         margin-bottom: 52px;
+        border-top: 1px solid #E2E4F3;
         .reviews__title{
+            margin-top: 32px;
             margin-bottom: 22px;
         }
         .slider{
@@ -825,7 +828,6 @@ header{
                 column-gap: 35px;
                 justify-content: center;
                 align-items: center;
-                margin: 0 auto;
             }
         }
     }
@@ -847,8 +849,14 @@ header{
 @media (min-width:992px) {
     .reviews__container{
         .reviews{
+            border-top: none;
             .reviews__title{
                 margin-bottom: 52px;
+                border-top: 1px solid #E2E4F3;
+                max-width: 850px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 60px;
             }
             .slider{
                 margin-bottom: 28px;
@@ -862,9 +870,11 @@ header{
         .reviews{
             .reviews__title{
                 margin-bottom: 62px;
+                max-width: 894px;
             }
             .slider{
                 margin-bottom: 36px;
+                column-gap: 40px;
                 .review{
                     padding: 20px 20px 21px 20px;
                     min-width: 310px;
@@ -899,6 +909,12 @@ header{
 }
 
 @media(min-width:576px){
+    .wrapper-footer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background: url(../image/Vector_footer.svg) bottom center no-repeat content-box;
+    }
     .support-container{
         .support{
             margin: 0 auto;

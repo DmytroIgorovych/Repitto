@@ -88,7 +88,7 @@ header .container .header_promo .header_mobileIcons a {
   header {
     overflow: hidden;
     background-image: url(../image/iPhone-14-Pro-clay.png), url(../image/background.svg);
-    background-position: bottom 10px right 50px, top left;
+    background-position: bottom 10px left 90%, top left;
     background-size: 193px 441px, 100% 100%;
     background-repeat: no-repeat;
     background-clip: content-box;
@@ -122,7 +122,7 @@ header .container .header_promo .header_mobileIcons a {
 @media (min-width: 992px) {
   header {
     background-image: url(../image/iPhone-14-Pro-clay.png), url(../image/opacity-background.svg), url(../image/background.svg);
-    background-position: bottom 10px right 210px, top left, top left;
+    background-position: bottom 10px left 75%, top left, top left;
     background-size: 193px 441px, 100% 100%, 100% 100%;
     background-repeat: no-repeat;
     background-clip: content-box;
@@ -149,7 +149,7 @@ header .container .header_promo .header_mobileIcons a {
 }
 @media (min-width: 1200px) {
   header {
-    background-position: bottom right 270px, top left, top left;
+    background-position: bottom left 75%, top left, top left;
     background-size: 212px 485px, 100% 100%, 100% 100%;
   }
   header .container {
@@ -174,7 +174,7 @@ header .container .header_promo .header_mobileIcons a {
 }
 @media (min-width: 1400px) {
   header {
-    background-position: bottom right 330px, top left, top left;
+    background-position: bottom left 75%, top left, top left;
     background-size: 253px 577px, 100% 100%, 100% 100%;
   }
   header .container {
@@ -354,7 +354,6 @@ header .container .header_promo .header_mobileIcons a {
 }
 .banner-container .mobileApps-banner {
   padding: 22px 20px 32px 20px;
-  margin-bottom: 43px;
   background: linear-gradient(45deg, #F16076, #FF805B);
 }
 .banner-container .mobileApps-banner .mobileApps-banner__title {
@@ -449,8 +448,10 @@ header .container .header_promo .header_mobileIcons a {
   }
 }
 .works-container {
-  padding: 32px 20px 0 20px;
-  background: url(../image/Union_small.svg) top center/100% 100% no-repeat border-box;
+  padding: 0 20px 0 20px;
+  margin-top: 32px;
+  background: url(../image/Union_small.svg) top center no-repeat border-box;
+  background-size: 100%;
 }
 .works-container .works-section .works-section__title {
   margin-bottom: 22px;
@@ -466,8 +467,8 @@ header .container .header_promo .header_mobileIcons a {
   color: #454F68;
 }
 .works-container .works-section .works-section__p2 {
-  margin-bottom: 40px;
-  padding-bottom: 30px;
+  margin-bottom: 70px;
+  padding-bottom: 28px;
 }
 .works-container .works-section .test {
   margin-bottom: 27px;
@@ -495,8 +496,7 @@ header .container .header_promo .header_mobileIcons a {
   .wrapper {
     margin: 0;
     padding: 0;
-    width: 100%;
-    background: url(../image/Union_big.svg) top 80px left no-repeat content-box;
+    background: url(../image/Union_big.svg) top 80px center no-repeat content-box;
   }
   .works-container {
     background: none;
@@ -525,12 +525,6 @@ header .container .header_promo .header_mobileIcons a {
   }
 }
 @media (min-width: 768px) {
-  .wrapper {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background: url(../image/Union_big.svg) top 80px left no-repeat content-box;
-  }
   .works-container {
     background: none;
   }
@@ -598,6 +592,9 @@ header .container .header_promo .header_mobileIcons a {
   }
 }
 @media (min-width: 1200px) {
+  .works-container .works-section h5 {
+    font-size: 22px;
+  }
   .works-container .works-section .works-section__title {
     font-size: calc(1.6rem + 0.9vw);
   }
@@ -615,6 +612,9 @@ header .container .header_promo .header_mobileIcons a {
   }
 }
 @media (min-width: 1400px) {
+  .works-container .works-section h5 {
+    font-size: 24px;
+  }
   .works-container .works-section p {
     font-size: 18px;
   }
@@ -635,13 +635,15 @@ header .container .header_promo .header_mobileIcons a {
   }
 }
 .reviews__container {
-  padding: 32px 20px 0 20px;
+  padding: 0 20px;
   overflow: hidden;
 }
 .reviews__container .reviews {
   margin-bottom: 52px;
+  border-top: 1px solid #E2E4F3;
 }
 .reviews__container .reviews .reviews__title {
+  margin-top: 32px;
   margin-bottom: 22px;
 }
 .reviews__container .reviews .slider {
@@ -692,7 +694,6 @@ header .container .header_promo .header_mobileIcons a {
          column-gap: 35px;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
   }
 }
 @media (min-width: 768px) {
@@ -704,8 +705,16 @@ header .container .header_promo .header_mobileIcons a {
   }
 }
 @media (min-width: 992px) {
+  .reviews__container .reviews {
+    border-top: none;
+  }
   .reviews__container .reviews .reviews__title {
     margin-bottom: 52px;
+    border-top: 1px solid #E2E4F3;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
   }
   .reviews__container .reviews .slider {
     margin-bottom: 28px;
@@ -714,9 +723,12 @@ header .container .header_promo .header_mobileIcons a {
 @media (min-width: 1200px) {
   .reviews__container .reviews .reviews__title {
     margin-bottom: 62px;
+    max-width: 894px;
   }
   .reviews__container .reviews .slider {
     margin-bottom: 36px;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
   }
   .reviews__container .reviews .slider .review {
     padding: 20px 20px 21px 20px;
@@ -742,6 +754,12 @@ header .container .header_promo .header_mobileIcons a {
 }
 
 @media (min-width: 576px) {
+  .wrapper-footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: url(../image/Vector_footer.svg) bottom center no-repeat content-box;
+  }
   .support-container .support {
     margin: 0 auto;
   }
