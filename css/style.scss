@@ -819,12 +819,6 @@ header{
             }
             .slider{
                 margin-bottom: 20px;
-                .review{
-                    .reviews__text{
-                    }
-                    .review__user-name{
-                    }
-                }
             }
             .reviews__breadcrumbs{
                 display: flex;
@@ -845,15 +839,6 @@ header{
             }
             .slider{
                 margin-bottom: 24px;
-                .review{
-                    .reviews__text{
-                    }
-                    .review__user-name{
-                    }
-                    svg{
-
-                    }
-                }
             }
         }
     }
@@ -867,13 +852,6 @@ header{
             }
             .slider{
                 margin-bottom: 28px;
-                .review{
-                    .reviews__text{
-                    }
-                    .review__user-name{
-                        
-                    }
-                }
             }
         }
     }
@@ -891,10 +869,6 @@ header{
                     padding: 20px 20px 21px 20px;
                     min-width: 310px;
                     height: 235px;
-                    .reviews__text{
-                    }
-                    .review__user-name{
-                    }
                     svg{
                         padding-left: 6px;
                     }
@@ -1030,3 +1004,5 @@ footer{
         }
     }
 }
+
+// footer section style end
