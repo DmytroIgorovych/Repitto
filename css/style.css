@@ -496,7 +496,7 @@ header .container .header_promo .header_mobileIcons a {
   .wrapper {
     margin: 0;
     padding: 0;
-    background: url(../image/Union_big.svg) top 80px center no-repeat content-box;
+    background: url(../image/Union_big.svg) top 80px center/100% 698px no-repeat border-box;
   }
   .works-container {
     background: none;
@@ -818,7 +818,7 @@ header .container .header_promo .header_mobileIcons a {
     margin: 0;
     padding: 0;
     width: 100%;
-    background: url(../image/Vector_footer.svg) bottom center no-repeat content-box;
+    background: url(../image/Vector_footer.svg) bottom center/100% 596px no-repeat content-box;
   }
   .support-container .support {
     margin: 0 auto;
