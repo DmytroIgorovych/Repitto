@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -164,7 +166,7 @@
             <div class="container reviews__container">
                 <section class="reviews">
                     <h2 class="reviews__title">User reviews</h2>
-                    <div class="slider">
+                    <div class="slider autoplay col-12">
                         <div class="review">
                             <p class="reviews__text">This is a gem of an app, incredibly helpful. I hope they create a similar trainer for Kubernetes certification. I managed to complete my exam successfully in just half an hour.
                             </p>
@@ -216,25 +218,6 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="reviews__breadcrumbs">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="16" viewBox="0 0 45 16" fill="none" class="arrowLeft d-none d-md-block">
-                            <path opacity="0.3" d="M0.292893 7.29301C-0.0976295 7.68354 -0.0976296 8.3167 0.292892 8.70722L6.65685 15.0712C7.04738 15.4617 7.68054 15.4617 8.07107 15.0712C8.46159 14.6807 8.46159 14.0475 8.07107 13.657L2.41422 8.00012L8.07107 2.34326C8.46159 1.95274 8.46159 1.31958 8.07107 0.929051C7.68054 0.538527 7.04738 0.538527 6.65685 0.929051L0.292893 7.29301ZM45 7.00012L1 7.00012L1 9.00012L45 9.00012L45 7.00012Z" fill="#8A91A1"/>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="61" height="12" viewBox="0 0 61 12" fill="none">
-                            <circle cx="6" cy="6" r="6" fill="url(#paint0_linear_1_401)"/>
-                            <circle cx="29.1431" cy="6" r="5.14286" stroke="#8A91A1" stroke-width="1.71429"/>
-                            <circle cx="54.8569" cy="6" r="5.14286" stroke="#8A91A1" stroke-width="1.71429"/>
-                            <defs>
-                            <linearGradient id="paint0_linear_1_401" x1="0.352" y1="12" x2="14.5158" y2="6.60594" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#F16076"/>
-                            <stop offset="1" stop-color="#FF805B"/>
-                            </linearGradient>
-                            </defs>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="16" viewBox="0 0 45 16" fill="none" class="arrowRight d-none d-md-block">
-                            <path d="M44.7071 8.70722C45.0976 8.3167 45.0976 7.68354 44.7071 7.29301L38.3431 0.929051C37.9526 0.538527 37.3195 0.538527 36.9289 0.929051C36.5384 1.31958 36.5384 1.95274 36.9289 2.34326L42.5858 8.00012L36.9289 13.657C36.5384 14.0475 36.5384 14.6807 36.9289 15.0712C37.3195 15.4617 37.9526 15.4617 38.3431 15.0712L44.7071 8.70722ZM8.74228e-08 9.00012L44 9.00012L44 7.00012L-8.74228e-08 7.00012L8.74228e-08 9.00012Z" fill="#8A91A1"/>
-                            </svg>
-                    </div>
                 </section>
             </div>
             <div class="wrapper-footer">
@@ -274,5 +257,10 @@
                 </div>
             </footer>
     </main>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>

@@ -770,7 +770,7 @@ header{
 
 .reviews__container{
     padding: 0 20px;
-    overflow: hidden;
+    // margin: 0 20px;
     .reviews{
         margin-bottom: 52px;
         border-top: 1px solid #E2E4F3;
@@ -779,22 +779,33 @@ header{
             margin-bottom: 22px;
         }
         .slider{
+            overflow: hidden;
             display: flex;
             column-gap: 21px;
-            margin-bottom: 16px;
+            padding-bottom: 35px;
+            .slick-dots{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    display: block;
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                    text-align: center;
+                    padding-bottom: 5px;
+                }
             .review{
                 display: flex;
                 flex-direction: column;
                 padding: 20px 20px 36px 20px;
                 border-radius: 15px;
-                min-width: 255px;
-                max-width: 310px;
+                width: 255px !important;
                 height: 255px;
                 font-size: 15px;
-                &:nth-child(odd){
+                &:nth-child(even){
                     background-color: #F1F2F9;
                 }
-                &:nth-child(even){
+                &:nth-child(odd){
                     background-color: #E2E4F3;
                 }
                 .reviews__text{
@@ -815,6 +826,7 @@ header{
 
 @media (min-width:576px) {
     .reviews__container{
+        padding: 0;
         .reviews{
             .reviews__title{
                 text-align: center;
@@ -822,6 +834,16 @@ header{
             }
             .slider{
                 margin-bottom: 20px;
+                .slick-dots{
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform:translate(-50%, 0);
+                    display: block;
+                    padding: 0;
+                    margin: 0;
+                    padding-bottom: 5px;
+                }
             }
             .reviews__breadcrumbs{
                 display: flex;
@@ -840,7 +862,16 @@ header{
                 margin-bottom: 42px;
             }
             .slider{
-                margin-bottom: 24px;
+                padding-bottom: 55px;
+                .slick-track{
+                    gap: 31px;
+                }
+                .slick-next {
+                    right: 35%;
+                }
+                .slick-prev {
+                    left: 34%;
+                }
             }
         }
     }
@@ -859,7 +890,15 @@ header{
                 padding-top: 60px;
             }
             .slider{
-                margin-bottom: 28px;
+                padding-bottom: 55px;
+                .review{
+                }
+                .slick-next {
+                    right: 37%;
+                }
+                .slick-prev {
+                    left: 37%;
+                }
             }
         }
     }
@@ -873,8 +912,7 @@ header{
                 max-width: 894px;
             }
             .slider{
-                margin-bottom: 36px;
-                column-gap: 40px;
+                padding-bottom: 65px;
                 .review{
                     padding: 20px 20px 21px 20px;
                     min-width: 310px;
@@ -882,6 +920,35 @@ header{
                     svg{
                         padding-left: 6px;
                     }
+                }
+                .slick-next {
+                    right: 40%;
+                }
+                .slick-prev {
+                    left: 40%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1400px) {
+    .reviews__container{
+        max-width: 1360px;
+        .reviews{
+            .reviews__title{
+                margin-bottom: 62px;
+                max-width: 894px;
+            }
+            .slider{
+                .slick-track{
+                    gap: 37px;
+                }
+                .slick-next {
+                    right: 41%;
+                }
+                .slick-prev {
+                    left: 41%;
                 }
             }
         }
