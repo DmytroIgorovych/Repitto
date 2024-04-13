@@ -1,12 +1,4 @@
-$(document).ready(function(){
-  $('.slider').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  });
-});
-
-$('.autoplay').slick({
+$('.slider').slick({
   rows:1,
   infinite: true,
   slidesToShow: 1,
@@ -31,37 +23,3 @@ $('.autoplay').slick({
         
       ]
 });
-
-// $('.slider').slick({
-//     infinite: true,
-//     centerMode: true,
-//     centerPadding: '0px',
-//     slidesToShow: 3,
-//     responsive: [
-//     {
-//       breakpoint: 768,
-//       settings: {
-//         arrows: false,
-//         centerMode: true,
-//         centerPadding: '40px',
-//         slidesToShow: 3
-//       }
-//     },
-//     {
-//       breakpoint: 480,
-//       settings: {
-//         arrows: false,
-//         centerMode: true,
-//         centerPadding: '40px',
-//         slidesToShow: 1
-//       }
-//     }
-//   ]
-// })
-
-// $('.reviews-slider').slick({
-//     infinite: true,
-//     slidesToShow: 1,
-//     slidesToScroll: 1
-// })
-
